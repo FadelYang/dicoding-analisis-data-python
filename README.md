@@ -1,5 +1,5 @@
 # Dicoding Academy - Data Analysis With Python Final Project
-
+![Streamlit Screenshoot](screenshoot/screenshoot1.png)
 ## Setup environtment
 ```
 conda create --name main-ds python=3.10
