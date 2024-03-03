@@ -164,7 +164,7 @@ ax.legend()
 st.pyplot(fig)
 
 # create third visualization
-st.subheader("Tren Pengguna Selama Satu Berdasarkan Musim")
+st.subheader("Tren Pengguna Selama Satu Berdasarkan Cuaca")
 by_weather_df = main_df.groupby(["weather_situation"])["count"].sum()
 
 fig, ax = plt.subplots(figsize=(8, 8))
